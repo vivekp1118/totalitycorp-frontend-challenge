@@ -3,7 +3,7 @@ import { useContext } from "react";
 
 function CartItems(props) {
   const { removeFromCart, increaseQty, decreasQty } = useContext(Context);
-  const bgImage = `../../../src/assets/products/${props.imagePath}`;
+  const bgImage = `/${props.imagePath}`;
 
   return (
     <div className="flex justify-between gap-5 px-2 py-8 sm:w-[500px] sm:gap-10 sm:p-10">

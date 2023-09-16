@@ -1,10 +1,10 @@
-import Header from "./ui/Header";
-import Navbar from "./Nav";
+import Header from "../components/ui/Header";
+import Navbar from "../components/Nav";
 import { useContext } from "react";
 import { Context } from "../context/context";
-import CartItems from "./ui/CartItems";
-import Footer from "./ui/Footer";
-import Model from "./ui/Model";
+import CartItems from "../components/ui/CartItems";
+import Footer from "../components/ui/Footer";
+import Model from "../components/ui/Model";
 function Cart() {
   const { cart, total, isMoeldOpen, toggleModel } = useContext(Context);
 

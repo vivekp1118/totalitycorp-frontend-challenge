@@ -3,7 +3,7 @@ import { Context } from "../context/context";
 
 function Card(props) {
   const { addToCart } = useContext(Context);
-  const bgImage = `../../src/assets/products/${props.imagePath}`;
+  const bgImage = `/${props.imagePath}`;
   return (
     <div className="flex h-[auto] w-[240px] flex-shrink-0 flex-col gap-2">
       <div

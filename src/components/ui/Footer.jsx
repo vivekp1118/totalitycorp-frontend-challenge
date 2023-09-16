@@ -3,7 +3,7 @@ function Footer() {
   const navigate = useNavigate();
   return (
     <div className="relative mt-[200px]">
-      <div className="promotion absolute top-[-180px]  flex h-fit w-[350px] flex-col justify-between gap-10 self-center rounded-2xl bg-black p-8 sm:w-[90%] sm:px-14 sm:py-10 md:flex-row">
+      <div className="promotion absolute top-[-180px]  flex h-fit w-[350px] flex-col justify-between gap-10 self-center rounded-2xl bg-black p-8 sm:top-[-150px] sm:w-[90%] sm:px-14 sm:py-10 md:flex-row">
         <p className="text-xl font-extrabold leading-normal text-white sm:w-[400px] sm:text-[2rem]">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </p>
